@@ -4,6 +4,7 @@
 TRAIN_DATA_PATH = "WindowsSliding_HOG_SVM/data/train"
 TEST_DATA_PATH = "WindowsSliding_HOG_SVM/data/test"
 VAL_DATA_PATH = "WindowsSliding_HOG_SVM/data/validate"
+SAVE_DATA_PATH = "WindowsSliding_HOG_SVM/data/test_results"
 
 # Model parameters
 MODEL_INPUT_IMAGE_SIZE = (280, 280)
@@ -32,6 +33,7 @@ BOX_RATIO = [(1, 1), (2/3, 1), (1, 1)] # Based on vocab ['cup', 'lamp', 'laptop'
 TRAIN_DATA_PATH2 = "WindowsSliding_HOG_SVM/data/train2"
 TEST_DATA_PATH2 = "WindowsSliding_HOG_SVM/data/test2"
 VAL_DATA_PATH2 = "WindowsSliding_HOG_SVM/data/validate2"
+SAVE_DATA_PATH2 = "WindowsSliding_HOG_SVM/data/test_results2"
 
 # Model parameters
 MODEL_INPUT_IMAGE_SIZE2 = (280, 280)

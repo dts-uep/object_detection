@@ -48,6 +48,7 @@ def main():
             class_list=vocab,
             box_size_ratio=cf.BOX_RATIO,
             save = True,
+            save_path=cf.SAVE_DATA_PATH
             image_name=image_name
             )
         
@@ -94,10 +95,11 @@ def main2():
             class_list=vocab,
             box_size_ratio=cf.BOX_RATIO2,
             save = True,
+            save_path=cf.SAVE_DATA_PATH2
             image_name=image_name
             )
 
 
 if __name__ == "__main__":
-    #main()
+    main()
     main2()
